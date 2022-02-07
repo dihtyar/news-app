@@ -101,7 +101,7 @@ function renderNews(news) {
 }
 // News item temlate function 
 function newsTemplate(news) {
-  console.log(news);
+  // console.log(news);
   let {urlToImage, title, url, description} = news;
   return `
     <div class="col s12">
